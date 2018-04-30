@@ -1,0 +1,1 @@
+"use strict";var app=new Vue({el:"#app",data:{title:"Hello World!",users:[2,3,4,5,6],link:"http://www.google.com/",counter:0,x:0,y:0},methods:{changeTitle:function(t){this.title=t.target.value},sayHello:function(){return this.title},increase:function(t){this.counter+=t},updateCoordinates:function(t){this.x=t.clientX,this.y=t.clientY}}});

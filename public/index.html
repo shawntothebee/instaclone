@@ -1,0 +1,30 @@
+<html>
+
+<head>
+      <title>CodingPhase Web Developer Starter Kit</title>
+      <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+      <h1>JavaScript Loops LIKE A PRO!!!!</h1>
+      <ul id="myList">
+      </ul>
+
+      <div id="app">
+            <input type="text" v-on:input="changeTitle" /> {{title}} {{users}} {{sayHello()}}
+
+
+            <a v-bind:href="link">Google</a>
+
+            <div>
+                  {{counter}}
+                  <p v-on:mousemove="updateCoordinates">Coordinates: {{x}} / {{y}}</p>
+                  <button v-on:click="increase(2, $event)">Click</button>
+            </div>
+      </div>
+
+      <script src="/js/vue.js"></script>
+      <script src="/js/all.js"></script>
+</body>
+
+</html>
